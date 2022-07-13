@@ -16,31 +16,31 @@ footer {
 }
 
 .w {
-  background-image: url("/images/crash.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/crash.png?v=1657445763905");
 }
 
 .a {
-  background-image: url("/images/kick.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/kick.png?v=1657445772771");
 }
 
 .s {
-  background-image: url("/images/snare.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/snare.png?v=1657445775100");
 }
 
 .d {
-  background-image: url("/images/tom1.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/tom1.png?v=1657445777825");
 }
 
 .j {
-  background-image: url("/images/tom2.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/tom2.png?v=1657445780770");
 }
 
 .k {
-  background-image: url("/images/tom3.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/tom3.png?v=1657445783138");
 }
 
 .l {
-  background-image: url("/images/tom4.png");
+  background-image: url("https://cdn.glitch.global/8075e640-598c-43fe-9ffd-f3766cecb71d/tom4.png?v=1657445786140");
 }
 
 .set {
@@ -50,11 +50,6 @@ footer {
 .game-over {
   background-color: red;
   opacity: 0.8;
-}
-
-.pressed {
-  box-shadow: 0 3px 4px 0 #dbedf3;
-  opacity: 0.5;
 }
 
 .red {
@@ -79,12 +74,18 @@ footer {
   background-color: white;
 }
 
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+  transform: translateY(-0.25em);
+}
+
 .random-beat {
-  border: 7px solid #404B69;
+  border: 7px solid #404b69;
   font-size: 1.3rem;
-  font-family: 'Arvo', cursive;
+  font-family: "Arvo", cursive;
   font-weight: 500;
-  color: #fff;
+  color: #ffffff;
   border-radius: 5px;
   text-align: center;
   background-color: #212122;
@@ -93,7 +94,7 @@ footer {
 }
 
 p {
-  color: #fff;
+  color: #ffffff;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
   margin: 1rem auto 4rem;
@@ -101,5 +102,5 @@ p {
 }
 
 .pressed-beat-generator {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
+  box-shadow: 0 3px 4px 0 #dbedf3;
 }
